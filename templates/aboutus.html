@@ -1,0 +1,64 @@
+{%extends 'layout.html'%}
+
+{% block body %}
+
+    <div style="z-index: -1;"><img src="{{url_for('static',filename = 'images/AboutUs.jpg')}}" alt=""></div>
+    <div class="container white" style="margin: -100px auto 0 auto; z-index: 50;">
+        <div class="padding-2em" >
+            <h1 class="main-heading">About <strong>US</strong></h1>   
+            <p style="margin : 0 5%;" class="sub-heading">NBCC (India) Limited (formerly National Buildings Construction Corporation Limited) is a blue-chip Government of India Navratna enterprise and a Central Public Sector undertaking which trades publicly in the market.NBCC acquired 100 per cent stake in hospital consultancy firm HSCC on Nov 6th 2018. HSCC is a 'Mini Ratna' Government of India Enterprise under the Ministry of Health & Family Welfare. The organization acquired over 51% stake in Hindustan Steelwork Construction Limited (HSCL), a PSU under the Steel Ministry in 2017.</p>
+        </div>
+        <div id = "sticky" style="text-align:center; z-index: 50;">
+            {%include 'includes/_stickyNav.html'%}
+        </div>
+
+        <div id="thecompany" style="height:70px;"></div>
+        
+        <div class="padding-2em">
+            <h1 class="main-heading">The <strong>Company</strong></h1>   
+            <p class="para-content">NBCC (India) Limited, formerly known as National Buildings Construction Corporation Ltd., is a blue-chip Government of India Navratna Enterprise under the Ministry of Housing and Urban Affairs. Listed with both the Stock Exchanges, the company's unique business model has today, made it stand out as a leader in its own right in the construction sector with more than INR 80,000 Crores (estd.) Order Book in hand till March 2018 and counting. The Company has registered a substantial Growth in profit during FY 2017-18 as compared to previous year. It has posted a Consolidated Profit of Rs.372.14 crores while its Consolidated Total Income has surged to Rs. 709,5.91 Crores during FY 2017-18.</p>
+            
+            <p class="para-content">Certified with ISO 9001:2008 from the Bureau of Indian Standards in respect of Project Management & Consultancy,</p>
+            <p class="para-content">NBCC has been executing many Landmark Projects as a PMC which contributes to about 90% of its annual revenue. The segment being the Company's core strength, the areas covered under its umbrella include Re-development of government properties, Roads, Hospitals & Medical Colleges, Institutions, Offices, Airports, Bridges, Industrial & Environmental Structures etc.</p>
+            <p class="para-content">NBCC has earned a niche for itself in construction of <strong>Green Buildings</strong> . Office of The Indian Institute of Corporate Affairs at Manesar (Haryana) constructed by the Company as its first one, has received the prestigious Gold Rating under LEED India for new construction, awarded by Indian Green Building Council (IGBC) in the year 2012. Other Green Building projects by the Company that followed thereafter include CSOI, New Delhi; Aayakar Bhawan, Noida (UP); SIB, Kolkata; Coal India Building, Kolkata, CBI HQ Building, New Delhi; 5-Star Rated National Institute for Solar Energy, Gurgaon (Haryana) etc.</p>
+            <p class="para-content">NBCC is also designated as the implementing agency for executing projects under Jawaharlal Nehru National Urban Renewal Mission (JNNURM) now named as Atal Mission for Rejuvenation and Urban Transformation (AMRUT), Pradhan Mantri Gram Sadak Yojna (PMGSY), Solid Waste Management (SWM) and developmental work in North Eastern Region. Due to vast experience and quality of services rendered by NBCC, a number of Central Government Ministries and various State Governments are utilizing the services of NBCC as their extended engineering arm.</p>
+        </div>
+        <div id="overseasops" style="height:70px;"></div>
+        <div class="padding-2em">
+            <h1 class="main-heading">Overseas <strong>Operations</strong></h1>
+            <p class="para-content">NBCC ventured into Overseas Operations in the year 1977, executing projects of diverse nature in countries such as Libya, Iraq, Yemen, Nepal, Maldives, Mauritius, Turkey, Botswana. Presently, the Company has its presence in Maldives, Turkey and Botswana implementing various projects and earning consistent revenue. Of late, the Company has opened an office in Oman and also signed a MoU with Al Naba Services LLC in Oman in order to jointly explore and secure infrastructure projects in Sultanate of Oman & neighbouring countries. To further its prospects overseas, the Company has also entered into MoUs with Construction Industry Development Board Holdings, Malaysia and Form Yapi Malzemeleri Insaat Samayi Ticaret Ltd., Turkey.</p>
+            
+            <p class="para-content">Very recently, NBCC has started projects at Mauritius which comprise Construction of New Supreme Court Building valuing Rs 250 Crore and also construction of Social Housing unit valuing Rs 300 crore approx.</p>
+            
+            <p class="para-content">Recently, NBCC has bagged an order worth 2000 Crores rupees (estd.) to build high-capacity Mahatma Gandhi Convention Centres (MGCC) in nine different African countries namely Niger, Uganda, Malawi, Zambia, Liberia, Gambia, Burkina Faso, Togo, Gabon with help of inistry of external affairs, Government of India.</p>
+        </div>
+        <div id="csr" style="height:70px;"></div>
+        <div class="padding-2em">
+            <h1 class="main-heading">Corporate Social <strong>Responsibility</strong></h1>
+            <p class="para-content">In order to fulfill its social mandate, NBCC has been engaged in various CSR activities all across the country. Under various schemes of CSR, the Company is participating in execution of Bio-digester Toilets in village schools at various locations of the country, providing scholarships to the poor school children for their education, helping in skill development of workers in various trades etc.</p>
+        </div>
+        <div id="cmpysubs" style="height:70px;"></div>
+        <div class="padding-2em">
+            <h1 class="main-heading">Company <strong>Subsidaries</strong></h1>
+            <p class="para-content">NBCC has recently set up Subsidiary Companies named :</p>
+            <ul class="fa-ul">
+                <li class="list-content"><span class="fa-li" style="color:#FFFB00;"><i class="fas fa-angle-right"></i></span><p ><strong>NBCC Services Limited:</strong>  A wholly owned subsidiary company NBCC Services Limited with its Headquarter in New Delhi, has been incorporated on 16.10.2014 with main objective to act as Execution and Implementation Agency to undertake CSR Projects and related activities on behalf of its own or for any other Govt. Undertakings/Semi Govt. Undertakings/ Body Corporates/ Societies/Trusts/Private Institutions/NGOs or any other concern. It has also been mandated to act as an execution and implementation agency for sustainability projects, heritage building restoration works etc. and execute maintenance and internal renovation works of major projects completed by NBCC, thereby extending end to end service to its customers.</p></li>
+                
+                <li class="list-content"><span class="fa-li" style="color:#FFFB00;"><i class="fas fa-angle-right"></i></span><p ><strong>Real Estate Development & Construction Corporation of Rajasthan Limited :</strong> Real Estate Development & Construction Corporation of Rajasthan Limited : A Joint Venture Company has been incorporated on 07.09.2015 under the Companies Act, 2013 by the name "Real Estate Development & Construction Corporation of Rajasthan Limited" in order to look into various re-development projects in Real Estate Sector across Rajasthan.</p></li>
+                
+                <li class="list-content"><span class="fa-li" style="color:#FFFB00;"><i class="fas fa-angle-right"></i></span><p ><strong>NBCC Engineering & Consultancy Ltd. (NECL):</strong>  A wholly owned subsidiary company named NBCC Engineering & Consultancy Ltd. (NECL) has been incorporated on 15.12.2015 by NBCC. The newly formed Company shall handle all consultancy jobs for NBCC as also would render consultancy to other Govt. and Private Organizations, thus shall be a profit generating self-sustained entity under the umbrella of NBCC.</p></li>
+                
+                <li class="list-content"><span class="fa-li" style="color:#FFFB00;"><i class="fas fa-angle-right"></i></span><p ><strong>NBCC Gulf LLC :</strong>   To carry out commercial construction activities of buildings, roads, airports, harbour, water sewerage and electricity network in Oman and its neighbouring Countries.</p></li>
+                
+                <li class="list-content"><span class="fa-li" style="color:#FFFB00;"><i class="fas fa-angle-right"></i></span><p ><strong>NBCC International Limited : </strong>to extensively and exclusively pursue its operations overseas.</p></li>
+                
+                <li class="list-content"><span class="fa-li" style="color:#FFFB00;"><i class="fas fa-angle-right"></i></span><p ><strong>NBCC Environment Engineering Limited (NEEL) : </strong>To exclusively implement all environment related projects both existing as well as upcoming.</p></li>
+                
+                <li class="list-content"><span class="fa-li" style="color:#FFFB00;"><i class="fas fa-angle-right"></i></span><p ><strong>Hindustan Steelworks Construction Limited (HSCL) : </strong>HSCL established in 1964 under the aegis of Ministry of Steel was taken over by NBCC(I) Limited as a subsidiary on April 2017. NBCC will leverage from HSCL's business activities leading to diversification and new business avenues in steel vertical.</p></li>
+            </ul>
+            <p class="para-content"><strong>Winner of a number of awards because of its consistently extra ordinary performance, the Company has been receiving "Excellent" rating from Govt. of India consecutively since 2004.</strong></p>
+            <p class="para-content">With the foundation of its rich heritage, NBCC today is etching a refulgent future.</p>
+        </div>
+        <div style="height:70px;"></div>
+    </div>
+{% endblock body %}

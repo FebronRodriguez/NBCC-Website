@@ -1,0 +1,23 @@
+<nav id="sticky-nav">
+    <ul>
+        <li><a href="#top">Top</a></li>
+        <li><a href="#thecompany">The Company</a></li>
+        <li><a href="#overseasops">Overseas Operations</a></li>
+        <li><a href="#csr">Corporate Social Responsibilties (CSR)</a></li>
+        <li><a href="#cmpysubs">Company Subsidaries</a></li>
+    </ul>
+</nav>
+<script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("sticky");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+</script>

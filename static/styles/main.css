@@ -1,0 +1,269 @@
+/*Text Used*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700');
+html,body{ margin: 0; padding: 0; scroll-behavior:smooth;}
+a,p{
+    font-family: 'Montserrat', sans-serif;
+}
+.btn{
+    background-color: #FFFB00;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    color: #000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+/*Global*/
+.container{
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right:auto;
+}
+.no-padding{ padding: 0;}
+.padding-6em{
+
+    padding: 6em 0;
+
+}
+.padding-2em{
+    padding:0 2em;
+}
+.display-photo{
+    width:700px;
+    
+}
+.float-right{
+   float: right;
+    
+}
+.float-left{
+    display: left;
+    
+}
+
+/*Color*/
+.white{
+    background:#fff;
+}
+.accent-1{ background:#ecf0f1;}
+.accent-2{ background:#FDFDFD;}
+.yellow{ background: #FFFB00 ;}
+.footer{ background: #312F32;}
+
+
+/*Social Nav*/
+#top-nav-wrapper{ height: 30px; padding: 0; }
+#social-nav{ float: left; margin: 0; padding: 0; }
+#social-nav ul{ margin: 0; padding: 0; list-style-type: none; }
+#social-nav ul li{ display: inline-block; padding: 5px 10px;  }
+
+/*Sub-nav*/
+
+#sub-nav{ float:right; margin: 0; padding: 0;}
+#sub-nav ul{ margin: 0; padding: 0; list-style-type: none;}
+#sub-nav ul li { display: inline-block; padding: 5px 10px; }
+#sub-nav ul li a{ color: #282828; text-decoration: none; font-size: .8em; }
+#sub-nav ul li a:hover{ color: #282828; text-decoration: underline; font-size: .8em; }
+
+/*Main-nav*/
+#main-nav{ float:right; margin: 0px; padding: 18px 10px; }
+#main-nav ul{ margin: 0; padding: 0; list-style-type: none; }
+#main-nav ul li{ display: inline-block; padding: 10px 10px 0 10px;text-align: center; border-bottom: 5px #fff solid; }
+#main-nav ul li a{ color: #282828; text-decoration: none; }
+#main-nav ul li a p{margin: 1em 0 0 0;}
+#main-nav ul li:hover{ border-bottom: 5px #0094D4 solid;  }
+/*Mobile Nav*/
+#mobile-nav{ float:right; margin: 0; padding: 2em 0; }
+#mobile-nav ul{ margin: 0; padding: 0; list-style-type: none; }
+#mobile-nav ul li{ display: inline-block; padding: 10px 10px 0 10px;text-align: center; }
+#mobile-nav ul li a {  color: #fff; text-decoration: none;}
+#mobile-nav ul li a:hover{ text-decoration: underline #FFFB00;}
+
+/* Sticky Nav*/
+#sticky-nav{ background:#0094D4;display:inline-block;margin: 0 auto; }
+#sticky-nav ul{ margin: 0; padding: .5em; list-style-type: none; }
+#sticky-nav ul li{ display: inline-block; padding:10px;text-align: center; }
+#sticky-nav ul li a {  color: #fff; text-decoration: none;}
+#sticky-nav ul li a:hover{  color: #fff; text-decoration: underline #FFFB00 ;}
+
+.sticky { position: fixed; top: 0; width: 100%; }
+
+/* Logo */
+#logo{ display: inline-block; width: 500px; padding: 25px 0px; }
+
+/* Footer*/
+#footer{
+    margin: 0;
+    padding: 0;
+}
+#footer #logo{
+    width: 100px;
+    padding: 1em 0;
+}
+
+
+/*Gallery Start*/
+.mySlides {
+    display: none
+}
+
+img {
+    vertical-align: middle;
+}
+
+.slideshow-container {
+    width: 100%;
+    position: relative;
+   
+}
+.caption{
+        color: #fff;
+        background:rgba(0,0,0,.9);
+        display: inline;
+        position: absolute;
+        right: 40px;
+        padding: 1em;
+        bottom: 40px;
+        font-family:  'Montserrat', sans-serif;
+}
+.caption h1{
+    margin: 0;
+    font-weight: 400;
+}
+.caption p{
+    margin: 0;
+    text-align: right;
+    
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+    }
+
+
+
+/* The dots/bullets/indicators */
+
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+/*Gallery End*/
+
+/*Heading */
+.main-heading{
+    
+    margin:0;
+    padding: .5em 0;
+    font-size: 3.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;    
+    color: #0094D4;
+}
+.main-heading strong{
+
+  text-decoration: underline #FFFB00;
+}
+
+.sub-heading{
+    margin:0;
+    padding: .5em 0;
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 2;
+    color: #282828;
+}
+.para-content{
+
+    margin:0;
+    padding: .5em 0;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 2.5;
+    color: #6B6464;
+    width: 90%;
+    margin-left: auto;
+    margin-right:auto;
+}
+.parallax { 
+    /* The image used */
+    display: block;
+    background-image: url("images/AboutUs.jpg");
+    height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.list-content{
+
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 2.5;
+    color: #6B6464;
+    width: 90%;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+
+
+
+
